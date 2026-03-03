@@ -56,5 +56,3 @@ Every solution reflects my effort to move from brute-force thinking to optimized
 - Greedy Algorithms  
 
 ---
-
-## 📂 Repository Structure
