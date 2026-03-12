@@ -31,12 +31,10 @@ Every solution reflects my effort to move from brute-force thinking to optimized
 
 | Difficulty |  Solved |
 |------------|--------|
-| 🟢 Easy    | <!--EASY-->0<!--EASY--> |
-| 🟡 Medium  | <!--MEDIUM-->0<!--MEDIUM--> |
-| 🔴 Hard    | <!--HARD-->0<!--HARD--> |
-| **Total**  | <!--TOTAL-->0<!--TOTAL--> |
-
-*(Auto-updated using GitHub Actions)*
+| 🟢 Easy    | 55 |
+| 🟡 Medium  | 8 |
+| 🔴 Hard    | 1 |
+| **Total**  | 64 |
 
 ---
 
