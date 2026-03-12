@@ -31,10 +31,10 @@ Every solution reflects my effort to move from brute-force thinking to optimized
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy    | <!--EASY-->54<!--EASY--> |
-| 🟡 Medium  | <!--MEDIUM-->5<!--MEDIUM--> |
-| 🔴 Hard    | <!--HARD-->1<!--HARD--> |
-| **Total**  | <!--TOTAL-->60<!--TOTAL--> |
+| 🟢 Easy    | <!--EASY-->0<!--EASY--> |
+| 🟡 Medium  | <!--MEDIUM-->0<!--MEDIUM--> |
+| 🔴 Hard    | <!--HARD-->0<!--HARD--> |
+| **Total**  | <!--TOTAL-->0<!--TOTAL--> |
 
 *(Auto-updated using GitHub Actions)*
 
