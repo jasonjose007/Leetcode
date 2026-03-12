@@ -34,7 +34,7 @@ Every solution reflects my effort to move from brute-force thinking to optimized
 | 🟢 Easy    | <!--EASY-->0<!--EASY--> |
 | 🟡 Medium  | <!--MEDIUM-->0<!--MEDIUM--> |
 | 🔴 Hard    | <!--HARD-->0<!--HARD--> |
-| **Total**  | <!--TOTAL-->0<!--TOTAL--> |
+| **Total**  | <!--TOTAL-->61<!--TOTAL--> |
 
 *(Auto-updated using GitHub Actions)*
 
