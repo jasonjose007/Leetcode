@@ -29,7 +29,7 @@ Every solution reflects my effort to move from brute-force thinking to optimized
 
 ## 📊 Progress Tracker
 
-| Difficulty | Solved |
+| Difficulty |  Solved |
 |------------|--------|
 | 🟢 Easy    | <!--EASY-->0<!--EASY--> |
 | 🟡 Medium  | <!--MEDIUM-->0<!--MEDIUM--> |
