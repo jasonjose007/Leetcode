@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>Problems -</strong> Solving &nbsp; | &nbsp;
-  <strong>Language:</strong> C++ &nbsp; | &nbsp;
+  <strong>Language:</strong> C++ & Python &nbsp; | &nbsp;
   <strong>Focus:</strong> DSA and Logic &nbsp; | &nbsp;
   <strong>Goal:</strong> +5 problems everyday
 </p>
@@ -31,10 +31,10 @@ Every solution reflects my effort to move from brute-force thinking to optimized
 
 | Difficulty |  Solved |
 |------------|--------|
-| 🟢 Easy    | 57 |
+| 🟢 Easy    | 58 |
 | 🟡 Medium  | 9 |
 | 🔴 Hard    | 1 |
-| **Total**  | 67 |
+| **Total**  | 68 |
 
 ---
 
