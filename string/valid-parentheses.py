@@ -1,18 +1,18 @@
+# Valid Parentheses
+# Difficulty: Easy
+# Topics: String, Stack
+
 class Solution:
     def isValid(self, s: str) -> bool:
-        i=0
-        a=[]
-        for i in range(len(s)):
-            if s[i]=='('or s[i]=='['or s[i]=='{':
-                a.append(s[i])
+        stack = []
+        mapping = {")": "(", "}": "{", "]": "["}
+        
+        for char in s:
+            if char in mapping:
+                top_element = stack.pop() if stack else '#'
+                if mapping[char] != top_element:
+                    return False
             else:
-                if not a:
-                    return False
-                top=a.pop()
-                if s[i]==')'and top!='(':
-                    return False
-                if s[i]==']'and top!='[':
-                    return False
-                if s[i]=='}'and top!='{':
-                    return False
-        return len(a)==0   
+                stack.append(char)
+                
+        return not stack
