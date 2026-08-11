@@ -4,14 +4,12 @@
 
 class Solution:
     def missingInteger(self, nums: List[int]) -> int:
-        i = 1
-        while i < len(nums) and nums[i] == nums[i - 1] + 1:
+        i = 0
+        while i + 1 < len(nums) and nums[i + 1] == nums[i] + 1:
             i += 1
         
-        s = sum(nums[:i])
+        s = sum(nums[:i + 1])
         num_set = set(nums)
-        
         while s in num_set:
             s += 1
-            
         return s
