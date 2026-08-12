@@ -32,9 +32,9 @@ Every solution reflects my effort to move from brute-force thinking to optimized
 | Difficulty |  Solved |
 |------------|--------|
 | 🟢 Easy    | 61 |
-| 🟡 Medium  | 10 |
+| 🟡 Medium  | 11 |
 | 🔴 Hard    | 2 |
-| **Total**  | 73 |
+| **Total**  | 74 |
 
 ---
 
