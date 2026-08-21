@@ -31,10 +31,10 @@ Every solution reflects my effort to move from brute-force thinking to optimized
 
 | Difficulty |  Solved |
 |------------|--------|
-| 🟢 Easy    | 69 |
+| 🟢 Easy    | 70 |
 | 🟡 Medium  | 12 |
 | 🔴 Hard    | 5 |
-| **Total**  | 86 |
+| **Total**  | 87 |
 
 ---
 
