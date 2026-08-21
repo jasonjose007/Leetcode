@@ -1,6 +1,9 @@
 class Solution:
     def singleNumber(self, nums: List[int]) -> int:
-        single = 0
+        seen = set()
         for num in nums:
-            single ^= num
-        return single
+            if num in seen:
+                seen.remove(num)
+            else:
+                seen.add(num)
+        return seen.pop()
