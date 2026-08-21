@@ -7,26 +7,26 @@ class Solution:
         import math
         
         coins = sorted(list(set(coins)))
-        filtered = []
+        filtered_coins = []
         for c in coins:
-            if not any(c % f == 0 for f in filtered):
-                filtered.append(c)
+            if not any(c % x == 0 for x in filtered_coins):
+                filtered_coins.append(c)
+        coins = filtered_coins
+        n = len(coins)
         
-        n = len(filtered)
-        limit = filtered[0] * k
+        limit = min(coins) * k
         subsets = []
         
         def dfs(idx, current_lcm, count):
             if idx == n:
                 if count > 0:
-                    sign = 1 if count % 2 == 1 else -1
-                    subsets.append((current_lcm, sign))
+                    subsets.append((current_lcm, 1 if count % 2 == 1 else -1))
                 return
             
             dfs(idx + 1, current_lcm, count)
             
-            g = math.gcd(current_lcm, filtered[idx])
-            next_lcm = (current_lcm * filtered[idx]) // g
+            g = math.gcd(current_lcm, coins[idx])
+            next_lcm = (current_lcm * coins[idx]) // g
             if next_lcm <= limit:
                 dfs(idx + 1, next_lcm, count + 1)
                 
@@ -40,7 +40,7 @@ class Solution:
             mid = (low + high) // 2
             count = 0
             for lcm, sign in subsets:
-                count += sign * (mid // lcm)
+                count += (mid // lcm) * sign
             if count >= k:
                 ans = mid
                 high = mid - 1
