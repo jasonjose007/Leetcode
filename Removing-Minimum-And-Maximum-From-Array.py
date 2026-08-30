@@ -5,8 +5,8 @@
 class Solution:
     def minimumDeletions(self, nums: List[int]) -> int:
         n = len(nums)
-        if n <= 2:
-            return n
+        if n == 1:
+            return 1
         
         min_val = min(nums)
         max_val = max(nums)
@@ -17,8 +17,4 @@ class Solution:
         if i > j:
             i, j = j, i
             
-        opt1 = j + 1
-        opt2 = n - i
-        opt3 = (i + 1) + (n - j)
-        
-        return min(opt1, opt2, opt3)
+        return min(j + 1, n - i, i + 1 + n - j)
