@@ -33,8 +33,8 @@ Every solution reflects my effort to move from brute-force thinking to optimized
 |------------|--------|
 | 🟢 Easy    | 97 |
 | 🟡 Medium  | 17 |
-| 🔴 Hard    | 6 |
-| **Total**  | 120 |
+| 🔴 Hard    | 7 |
+| **Total**  | 121 |
 
 ---
 
