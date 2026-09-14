@@ -11,6 +11,8 @@
   <strong>Goal:</strong> +5 problems everyday
 </p>
 
+![LeetCode](https://img.shields.io/badge/LeetCode-192%20Solved-ffa116?style=flat&logo=leetcode&logoColor=white) ![Easy](https://img.shields.io/badge/Easy-136-brightgreen?style=flat) ![Medium](https://img.shields.io/badge/Medium-49-orange?style=flat) ![Hard](https://img.shields.io/badge/Hard-7-red?style=flat) ![CodeChef](https://img.shields.io/badge/CodeChef-12%20Solved-5B4638?style=flat&logo=codechef&logoColor=white) ![Bot](https://img.shields.io/badge/Daily%20Bot-Active%20🤖-blue?style=flat)
+
 ---
 
 ## 🧠 About This Repository
