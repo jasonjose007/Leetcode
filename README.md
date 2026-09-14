@@ -15,6 +15,8 @@
 
 ## 🧠 About This Repository
 
+> 📊 **Stats:** 23 solved | 50% acceptance rate | Auto-solved daily by bot
+
 This repository contains my solutions to **LeetCode** problems.  
 I use this space to strengthen my understanding of:
 
@@ -59,6 +61,6 @@ Every solution reflects my effort to move from brute-force thinking to optimized
 ### CodeChef
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy | 11 |
+| 🟢 Easy | 12 |
 | 🟡 Medium | 0 |
-| **Total** | **11** |
+| **Total** | **12** |
