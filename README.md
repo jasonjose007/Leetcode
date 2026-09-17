@@ -58,11 +58,3 @@ Every solution reflects my effort to move from brute-force thinking to optimized
 - Greedy Algorithms  
 
 ---
-
-
-### CodeChef
-| Difficulty | Solved |
-|------------|--------|
-| 🟢 Easy | 14 |
-| 🟡 Medium | 0 |
-| **Total** | **14** |
