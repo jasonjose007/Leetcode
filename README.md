@@ -17,7 +17,7 @@
 
 ## 🧠 About This Repository
 
-> 📊 **Stats:** 3 solved | 100% acceptance rate | Auto-solved daily by bot
+> 📊 **Stats:** 3 solved | 100% acceptance rate 
 
 This repository contains my solutions to **LeetCode** problems.  
 I use this space to strengthen my understanding of:
