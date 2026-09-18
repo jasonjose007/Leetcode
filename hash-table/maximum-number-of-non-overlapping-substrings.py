@@ -1,29 +1,45 @@
+# Maximum Number of Non-Overlapping Substrings
+# Platform: LeetCode
+# Difficulty: Hard
+# Topics: Hash Table, String, Greedy, Sorting
+
+"""
+This solution first computes the first and last occurrence of each character to build valid substring intervals, expanding each interval dynamically if it encompasses characters with earlier starting points. It then sorts these valid intervals by their end points and uses a greedy approach to select the maximum number of non-overlapping substrings. The time complexity is $O(n + \Sigma^3)$ (where $\Sigma$ is the alphabet size, 26) and the space complexity is $O(n)$ for storing intervals and the result.
+"""
+
 class Solution:
     def maxNumOfSubstrings(self, s: str) -> list[str]:
-        counts = Counter(s)
-        first = {c: s.find(c) for c in counts}
-        last = {c: s.rfind(c) for c in counts}
+        n = len(s)
+        first = {}
+        last = {}
+        for i, c in enumerate(s):
+            if c not in first:
+                first[c] = i
+            last[c] = i
 
-        res = []
-        queue = deque()
-
-        for c in counts:
-            queue.appendleft([first[c], last[c], counts[c]])
-
-            left = inf
-            right = -inf
-            total = 0
-
-            for x, y, z in queue:
-                total += z
-                left = min(left, x)
-                right = max(right, y)
-
-                if total == right - left + 1:
+        intervals = []
+        for c in first:
+            l = first[c]
+            r = last[c]
+            valid = True
+            i = l
+            while i <= r:
+                char = s[i]
+                if first[char] < l:
+                    valid = False
                     break
+                r = max(r, last[char])
+                i += 1
+            if valid:
+                intervals.append((r, l))
 
-            if total == right - left + 1:
-                res.append(s[left:right + 1])
-                queue.clear()
+        intervals.sort()
 
-        return res
+        ans = []
+        prev_end = -1
+        for r, l in intervals:
+            if l > prev_end:
+                ans.append(s[l:r+1])
+                prev_end = r
+
+        return ans
