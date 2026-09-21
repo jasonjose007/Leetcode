@@ -11,13 +11,13 @@
   <strong>Goal:</strong> +5 problems everyday
 </p>
 
-![LeetCode](https://img.shields.io/badge/LeetCode-210%20Solved-ffa116?style=flat&logo=leetcode&logoColor=white) ![Easy](https://img.shields.io/badge/Easy-149-brightgreen?style=flat) ![Medium](https://img.shields.io/badge/Medium-53-orange?style=flat) ![Hard](https://img.shields.io/badge/Hard-8-red?style=flat)
+![LeetCode](https://img.shields.io/badge/LeetCode-211%20Solved-ffa116?style=flat&logo=leetcode&logoColor=white) ![Easy](https://img.shields.io/badge/Easy-150-brightgreen?style=flat) ![Medium](https://img.shields.io/badge/Medium-53-orange?style=flat) ![Hard](https://img.shields.io/badge/Hard-8-red?style=flat)
 
 ---
 
 ## 🧠 About This Repository
 
-> 📊 **Stats:** 21 solved | 88% acceptance rate
+> 📊 **Stats:** 22 solved | 88% acceptance rate
 
 This repository contains my solutions to **LeetCode** problems.  
 I use this space to strengthen my understanding of:
@@ -35,10 +35,10 @@ Every solution reflects my effort to move from brute-force thinking to optimized
 
 | Difficulty |  Solved |
 |------------|--------|
-| 🟢 Easy    | 149 |
+| 🟢 Easy    | 150 |
 | 🟡 Medium  | 53 |
 | 🔴 Hard    | 8 |
-| **Total**  | 210 |
+| **Total**  | 211 |
 
 ---
 
