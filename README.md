@@ -17,7 +17,7 @@
 
 ## 🧠 About This Repository
 
-> 📊 **Stats:** 351 solved | 66% acceptance rate
+> 📊 **Stats:** 354 solved | 66% acceptance rate
 
 This repository contains my solutions to **LeetCode** problems.  
 I use this space to strengthen my understanding of:
